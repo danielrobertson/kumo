@@ -62,7 +62,7 @@ See [AGENTS.md](./AGENTS.md) for comprehensive development documentation includi
 ### Quick Start
 
 ```bash
-pnpm install
+pnpm i && pnpm build
 pnpm dev                    # Start docs site at localhost:4321
 pnpm --filter @cloudflare/kumo test
 ```
